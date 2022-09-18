@@ -33,6 +33,7 @@ const ProjectPreview = (props) => {
           href={links.deploy}
           className="project-presentation-link link-deploy"
           target="_blank"
+          rel="noreferrer"
         >
           <p className="link-text">Accéder au site</p>
         </a>
@@ -40,6 +41,7 @@ const ProjectPreview = (props) => {
           href={links.github}
           className="project-presentation-link link-github"
           target="_blank"
+          rel="noreferrer"
         >
           <p className="link-text">Voir repo.</p>
         </a>
