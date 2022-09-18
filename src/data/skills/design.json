@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Figma",
+        "image": "figma.png",
+        "link": "https://www.figma.com/"
+      },
+      {
+        "name": "Photoshop",
+        "image": "photoshop.png",
+        "link": "https://www.adobe.com/fr/products/photoshop.html"
+      },
+      {
+        "name": "After Effects",
+        "image": "after-effects.png",
+        "link": "https://www.adobe.com/fr/products/aftereffects.html/"
+      }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Bataille Navale",
+    "description": "Jeu de bataille navale. Projet réalisé en groupe",
+    "image": "bataille-navale.PNG",
+    "technos": ["HTML", "CSS", "JavaScript", "React"],
+    "links": {
+      "deploy": "https://bataille-navale.netlify.app/",
+      "github": "https://github.com/JHanslik/bataille-navale"
+    }
+  },
+  {
+    "name": "To Do List",
+    "description": "Mini application de création, modification et suppression de tâches. Projet réalisé en binôme",
+    "image": "todo-list.PNG",
+    "technos": ["HTML", "CSS", "JavaScript", "React"],
+    "links": {
+      "deploy": "https://cosmic-paletas-7dd7b8.netlify.app//",
+      "github": "https://github.com/FloMenus/to-do-list-2"
+    }
+  },
+  {
+    "name": "Shifumi",
+    "description": "Jeu de Shifumi",
+    "image": "shifumi.PNG",
+    "technos": ["HTML", "CSS", "JavaScript"],
+    "links": {
+      "deploy": "https://flomenus.github.io/shifumi/",
+      "github": "https://github.com/FloMenus/shifumi"
+    }
+  },
+  {
+    "name": "Cui-zine",
+    "description": "Site multi-pages de cuisine. Projet réalisé en binome",
+    "image": "cui-zine.PNG",
+    "technos": ["HTML", "CSS"],
+    "links": {
+      "deploy": "https://flomenus.github.io/digitous-html-cuisine/pages/index.html",
+      "github": "https://github.com/FloMenus/digitous-html-cuisine"
+    }
+  },
+  {
+    "name": "Deezer Landing Page",
+    "description": "Reproduction de la page d'accueil de Deezer",
+    "image": "deezer.PNG",
+    "technos": ["HTML", "CSS"],
+    "links": {
+      "deploy": "https://flomenus.github.io/deezer-v1/",
+      "github": "https://github.com/FloMenus/deezer-v1"
+    }
+  },
+  {
+    "name": "CV",
+    "description": "Reproduction du CV",
+    "image": "cv.PNG",
+    "technos": ["HTML", "CSS"],
+    "links": {
+      "deploy": "https://flomenus.github.io/deezer-v1/",
+      "github": "https://github.com/FloMenus/deezer-v1"
+    }
+  }
+]

@@ -1,38 +1,330 @@
-.App {
-  text-align: center;
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@300;400&family=Palanquin:wght@500&family=Sarala&family=Taviraj&display=swap");
+
+/* font-family: 'Mukta Vaani', sans-serif;
+font-family: 'Palanquin', sans-serif;
+font-family: 'Sarala', sans-serif;
+font-family: 'Taviraj', serif; */
+
+body {
+  color: white;
+  background-color: #1c1c1c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .contact-container {
+  position: fixed;
+  top :20;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  background-color: #282828;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  clear: left;
+} */
+
+h1 {
+  font-family: Palanquin;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 32px 32px 10px 32px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-family: Palanquin;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.about-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.about-text {
+  font-family: Mukta Vaani;
+  font-weight: 300;
+  font-size: 18px;
+  text-justify: auto;
+}
+
+.social-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.section-title {
+  font-family: Taviraj;
+  font-size: 42px;
+  max-width: 720px;
+  margin: 50px auto 0 auto;
+  padding: 0px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.skills-container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 20px;
+  border-top: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #131313;
+  border-radius: 28px;
+  padding: 20px;
+}
+
+.skills-wrapper-title {
+  width: 100%;
+  font-family: Sarala;
+  margin: 0 auto 8px 32px;
+  font-size: 22px;
+}
+
+.skill-button {
+  font-family: Sarala;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 12px 18px;
+  border: solid 1px white;
+  border-radius: 50px;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 200px;
+  transition: 0.2s ease-in-out;
+}
+
+.skill-button:hover {
+  background-color: #d8d8d8;
+  color: #1a1a1a;
+}
+
+/* .wip.skill-button:hover {
+  background-color: #1a1a1a;
+  color: white;
+  transition: 0.3s ease-in-out;
+} */
+.wip {
+  margin-top: 60px;
+}
+.wip img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+.wip h4 {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.skill-name {
+  font-family: Sarala;
+  font-size: 16px;
+}
+
+.projects-container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 20px;
+  border-top: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 60px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  width: 251px;
+  height: 126px;
+  background: #292929;
+  border-radius: 11px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* background image of the prop image */
+  background-image: image();
+  transition: ease-out 0.3s;
+}
+
+.project:hover {
+  background: #d8d8d8;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.project h5 {
+  user-select: none;
+  font-family: Sarala;
+  font-size: 16px;
+}
+
+.project-presentation {
+  position: fixed;
+  padding: 10px 30px 25px 30px;
+  background-color: #141414;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.8);
+}
+
+.project-presentation-close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-presentation-name {
+  font-family: Palanquin;
+  font-weight: 300;
+  font-size: 35px;
+}
+.project-presentation-image {
+  height: 30%;
+  border-radius: 25px;
+  margin: 20px 0;
+  filter: brightness(81%);
+  -webkit-filter: brightness(81%);
+  -moz-filter: brightness(81%);
+}
+.project-presentation-image:hover {
+  cursor: pointer;
+  filter: none;
+  transition: 0.3s ease-in-out;
+}
+.project-presentation-description {
+  font-family: Mukta Vaani;
+  font-weight: 300;
+  font-size: 20px;
+}
+.project-presentation-technos-title {
+  font-family: Taviraj;
+  font-size: 24px;
+  width: 80%;
+  margin-top: 30px;
+  border-bottom: solid 1px white;
+}
+.mini-skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+.mini-skill-button {
+  font-family: Sarala;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 12px 18px;
+  border: solid 1px white;
+  border-radius: 50px;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+.project-presentation-links {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.project-presentation-link {
+  width: 185px;
+  height: 70px;
+  background: #3c3c3c;
+  border-radius: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.project-presentation-link:hover {
+  background-color: #d8d8d8;
+  color: #1a1a1a;
+}
+.link-text {
+  font-family: "Sarala";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 47px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    margin: 0 auto;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .skills-wrapper {
+    flex-direction: row;
+  }
+  .skill-button {
+    width: 100%;
+  }
+  .projects-wrapper {
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+  .project {
+    width: 100%;
+  }
+  .project-presentation {
+    padding: 10px 30px 25px 30px;
+    border-radius: 25px;
+    width: 90%;
+    height: 90vh;
+    overflow-y: scroll;
+    -webkit-box-shadow: 0px 0px 50px 50px #000000;
+    box-shadow: 0px 0px 50px 50px #000000;
+  }
+  .project-presentation-image {
+    width: 300px;
+    height: 168px;
   }
 }

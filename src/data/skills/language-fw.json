@@ -1,0 +1,37 @@
+[
+  {
+    "name": "HTML",
+    "image": "html-5.png",
+    "link": "https://developer.mozilla.org/fr/docs/Web/HTML"
+  },
+  {
+    "name": "CSS",
+    "image": "css-3.png",
+    "link": "https://www.w3schools.com/css/css_intro.asp"
+  },
+  {
+    "name": "JavaScript",
+    "image": "js.png",
+    "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+  },
+  {
+    "name": "React",
+    "image": "react.png",
+    "link": "https://www.technigo.io/explained/what-is-react"
+  },
+  {
+    "name": "Node.js",
+    "image": "node-js.png",
+    "link": "https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm"
+  },
+  {
+    "name": "Express",
+    "image": "express.png",
+    "link": "https://www.besanttechnologies.com/what-is-expressjs"
+  },
+  {
+    "name": "MySQL",
+    "image": "mysql.png",
+    "link": "https://www.talend.com/resources/what-is-mysql/"
+  }
+]

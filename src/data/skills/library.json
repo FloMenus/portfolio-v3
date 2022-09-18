@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Tailwind CSS",
+        "image": "tailwind.png",
+        "link": "https://tailwindcss.com/"
+      },
+      {
+        "name": "Bootstrap",
+        "image": "bootstrap.png",
+        "link": "https://getbootstrap.com/"
+      }
+]
