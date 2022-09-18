@@ -58,6 +58,7 @@ function App() {
             className="social-link"
             href="https://www.linkedin.com/in/florent-menus/"
             target="_blank"
+            rel="noreferrer"
           >
             LinkedIn
           </a>

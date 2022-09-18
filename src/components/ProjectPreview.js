@@ -18,7 +18,7 @@ const ProjectPreview = (props) => {
       </button>
       {console.log(name)}
       <h5 className="project-presentation-name">{name}</h5>
-      <a href={links.deploy} target="_blank">
+      <a href={links.deploy} target="_blank" rel="noreferrer">
         <img className="project-presentation-image" src={preview} alt={name} />
       </a>
       <p className="project-presentation-description">{description}</p>
