@@ -1,11 +1,9 @@
 import React from "react";
-
 import MiniSkill from "./MiniSkill";
+import imagePlaceholder from "../images/image-placeholder.svg";
 
 const ProjectPreview = (props) => {
   const { name, description, image, technos, links, close } = props;
-
-  const imagePlaceholder = require("https://via.placeholder.com/150");
   const preview = require(`../images/projects/${image}`);
 
   return (
