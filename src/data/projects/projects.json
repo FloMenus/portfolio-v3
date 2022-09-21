@@ -1,5 +1,15 @@
 [
   {
+    "name": "Pokemon Random Generator",
+    "description": "Génère un pokémon aléatoire de la première génération",
+    "image": "pokemon.PNG",
+    "technos": ["HTML", "CSS", "JavaScript", "React"],
+    "links": {
+      "deploy": "https://random-pokemon-flomenus.netlify.app/",
+      "github": "https://github.com/FloMenus/pokemon"
+    }
+  },
+  {
     "name": "Bataille Navale",
     "description": "Jeu de bataille navale. Projet réalisé en groupe",
     "image": "bataille-navale.PNG",
@@ -55,8 +65,8 @@
     "image": "cv.PNG",
     "technos": ["HTML", "CSS"],
     "links": {
-      "deploy": "https://flomenus.github.io/deezer-v1/",
-      "github": "https://github.com/FloMenus/deezer-v1"
+      "deploy": "https://flomenus.github.io/CV/",
+      "github": "https://github.com/FloMenus/CV"
     }
   }
 ]

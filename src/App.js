@@ -27,17 +27,6 @@ function App() {
     <div>
       <h1>Florent Menus</h1>
       <h2 className="subtitle">Développeur web full stack</h2>
-      {/* <div className="contact-container">
-        <a href="https://github.com/FloMenus" target="_blank">
-          <img className="contact-image" src={require("./images/contact/github.png")} alt="github" />
-        </a>
-        <a href="https://www.linkedin.com/in/florent-menus/" target="_blank">
-          <img className="contact-image" src={require("./images/contact/linkedin.png")} alt="LinkedIn" />
-        </a>
-        <a href="mailto:florent.mns@gmail.com" target="_blank">
-          <img className="contact-image" src={require("./images/contact/email.png")} alt="Email" />
-        </a>
-        </div> */}
       <div className="about-container">
         <p className="about-text">
           Bonjour, je m’appelle Florent et je suis étudiant développeur web full

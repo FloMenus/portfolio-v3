@@ -33,6 +33,13 @@ h1 {
   line-height: 1.2;
 }
 
+.logo {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .subtitle {
   font-family: Palanquin;
   font-size: 15px;
