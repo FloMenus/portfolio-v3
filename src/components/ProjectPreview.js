@@ -5,6 +5,7 @@ import MiniSkill from "./MiniSkill";
 const ProjectPreview = (props) => {
   const { name, description, image, technos, links, close } = props;
 
+  const imagePlaceholder = require("https://via.placeholder.com/150");
   const preview = require(`../images/projects/${image}`);
 
   return (
@@ -19,7 +20,19 @@ const ProjectPreview = (props) => {
       {console.log(name)}
       <h5 className="project-presentation-name">{name}</h5>
       <a href={links.deploy} target="_blank" rel="noreferrer">
-        <img className="project-presentation-image" src={preview} alt={name} />
+        {!preview ? (
+          <img
+            className="project-presentation-image"
+            src={imagePlaceholder}
+            alt={name}
+          />
+        ) : (
+          <img
+            className="project-presentation-image"
+            src={preview}
+            alt={name}
+          />
+        )}
       </a>
       <p className="project-presentation-description">{description}</p>
       <h6 className="project-presentation-technos-title">Technos utilisées</h6>
