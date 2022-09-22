@@ -1,5 +1,15 @@
 [
   {
+    "name": "Moovice",
+    "description": "Site de référencement de films",
+    "image": "moovice.PNG",
+    "technos": ["HTML", "CSS", "JavaScript", "React"],
+    "links": {
+      "deploy": "https://moovice-flomenus.netlify.app/",
+      "github": "https://github.com/FloMenus/moovice"
+    }
+  },
+  {
     "name": "Pokemon Random Generator",
     "description": "Génère un pokémon aléatoire de la première génération",
     "image": "pokemon.PNG",
