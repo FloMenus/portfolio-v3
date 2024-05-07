@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-v3/static/css/main.d222226b.css",
+    "main.js": "/portfolio-v3/static/js/main.1bd6414a.js",
+    "static/js/787.4e178cf6.chunk.js": "/portfolio-v3/static/js/787.4e178cf6.chunk.js",
+    "static/media/moovice.PNG": "/portfolio-v3/static/media/moovice.b665fe493768fd4db76b.PNG",
+    "static/media/cui-zine.PNG": "/portfolio-v3/static/media/cui-zine.cc5ffd3227c3d061966a.PNG",
+    "static/media/deezer.PNG": "/portfolio-v3/static/media/deezer.ed6077ea429f918773e7.PNG",
+    "static/media/pokemon.PNG": "/portfolio-v3/static/media/pokemon.6fbc277ce8258ff44742.PNG",
+    "static/media/cv.PNG": "/portfolio-v3/static/media/cv.644fb0a00e8d0f0a5cc6.PNG",
+    "static/media/shifumi.PNG": "/portfolio-v3/static/media/shifumi.3410f3702c388d2e6a62.PNG",
+    "static/media/bataille-navale.PNG": "/portfolio-v3/static/media/bataille-navale.69827f5593bb724f4eed.PNG",
+    "static/media/todo-list.PNG": "/portfolio-v3/static/media/todo-list.f8d097d6c2d31800828e.PNG",
+    "index.html": "/portfolio-v3/index.html",
+    "static/media/image-placeholder.svg": "/portfolio-v3/static/media/image-placeholder.0d25f7858455c658f5a4c89c21b5571d.svg",
+    "main.d222226b.css.map": "/portfolio-v3/static/css/main.d222226b.css.map",
+    "main.1bd6414a.js.map": "/portfolio-v3/static/js/main.1bd6414a.js.map",
+    "787.4e178cf6.chunk.js.map": "/portfolio-v3/static/js/787.4e178cf6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d222226b.css",
+    "static/js/main.1bd6414a.js"
+  ]
+}
