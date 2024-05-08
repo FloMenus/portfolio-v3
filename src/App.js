@@ -138,7 +138,6 @@ function App() {
             />
           ))}
         </div>
-        <p>test</p>
       </div>
     </div>
   );
